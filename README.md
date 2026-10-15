@@ -48,3 +48,13 @@ python3 -m http.server 8000
 - 외부 CDN이나 빌드 의존성 없음
 - 모바일 내비게이션, 키보드 포커스, reduced-motion 지원
 - GitHub Pages 프로젝트 경로와 사용자 루트 경로 모두 지원 (상대 경로)
+
+## 예제 프로젝트 (`projects/`)
+
+홈의 3개 프로젝트 카드에서 각 예제의 설명 페이지로 이동할 수 있습니다.
+
+- `projects/cicd/`: GitHub Actions + Python 검증 + GitHub Pages 배포 예제. 별도 저장소에 해당 폴더 내용을 루트로 복사해야 합니다.
+- `projects/monitoring/`: Terraform 기반 CloudWatch CPU Alarm 및 SNS 이메일 구독 예제. 실제 AWS 리소스 생성 전 값 검증이 필요합니다.
+- `projects/iac/`: Terraform 기반 VPC, Public Subnet, Internet Gateway 및 라우트 테이블 예제.
+
+세 예제 모두 **학습용 샘플**이며 실제 수행 이력으로 소개해서는 안 됩니다. Terraform 사용 시 AWS 비용이 발생할 수 있습니다.
